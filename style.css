@@ -1,3 +1,11 @@
+:root {
+    --primary-color: #4f46e5;
+}
+
+/* html {
+    font-size: 10px;
+} */
+
 * {
     margin: 0;
     padding: 0;
@@ -5,6 +13,6 @@
 }
 
 body {
-    color: red;
+    color: var(--primary-color);
     padding: 20px 40px;
 }
